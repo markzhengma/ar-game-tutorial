@@ -423,7 +423,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 704612174}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bf60490e8b804d1aaf5e418fefe2a99, type: 3}
+  m_Script: {fileID: 11500000, guid: bef09483146b0428daadec24a6f5972d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   EnemyObject: {fileID: 1522635007}
@@ -794,7 +794,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1522635007}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ac3ebf9ede7344e789ae157c15ed878, type: 3}
+  m_Script: {fileID: 11500000, guid: 61e693f262e8f4c90b6f6b852cd60222, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   guy: {fileID: 704612174}
@@ -811,6 +811,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 2.0758069, z: 1}
   m_Center: {x: 0, y: 0.98425245, z: 0}
+--- !u!54 &1522635011
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1522635007}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1575083727
 GameObject:
   m_ObjectHideFlags: 0
